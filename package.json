@@ -1,0 +1,25 @@
+{
+  "name": "followers-to-list",
+  "version": "1.0.0",
+  "private": true,
+  "description": "When passing a user handle, create a list of the people they follow.",
+  "main": "src/index.js",
+  "bin": "bin/go",
+  "license": "MIT",
+  "repository": "aniftyco/requestful",
+  "author": {
+    "name": "NiftyCo",
+    "email": "support@anifty.co",
+    "url": "https://anifty.co"
+  },
+  "contributors": [
+    {
+      "name": "Josh Manders",
+      "url": "https://twitter.com/joshmanders"
+    }
+  ],
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "twitter": "^1.7.1"
+  }
+}
