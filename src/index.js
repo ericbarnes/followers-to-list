@@ -18,7 +18,7 @@ function getFollowing(screen_name, cursor) {
 
 function createList(name) {
   return new Promise((resolve, reject) => {
-    twitter.post('lists/create', { name }, (err, res) => {
+    twitter.post('lists/create', { name:name, mode:'private' }, (err, res) => {
       if (err) {
         return reject(err);
       }
